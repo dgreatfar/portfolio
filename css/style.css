@@ -766,5 +766,9 @@ footer a{
     .home .home-content .text-3{
         font-size: 25px;
     }
+    
+    .about .about-content .right .text span{
+    font-size: 25px;
+    }
 }
 
