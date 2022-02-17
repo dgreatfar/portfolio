@@ -752,6 +752,16 @@ footer a{
             font-size: 40px;
         }
     }
+    
+     .about .about-content .right .text span{
+    font-size: 20px;
+    }
+    
+    about .about-content .right .text{
+    font-size: 20px;
+    font-weight: 500; 
+    margin-bottom: 10px;     
+}
      
 }
 
@@ -768,11 +778,11 @@ footer a{
     }
     
     .about .about-content .right .text span{
-    font-size: 20px;
+    font-size: 18px;
     }
     
     about .about-content .right .text{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500; 
     margin-bottom: 10px;     
 }
