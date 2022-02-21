@@ -275,7 +275,8 @@ margin-bottom: 10px;
 /* Services Section Styling */
 
 .services,
-.teams{
+.teams,
+.social-media{
     background: #111;
     color: #fff;
 }
@@ -290,18 +291,17 @@ margin-bottom: 10px;
 }
 
 .services .card{
+    padding: 20px;
     height: 300px;
     width: 300px;
-    margin: 50px;
-    box-shadow: 5px 2px 5px 2px #555;
+    margin: 20px;
     background-color: #222;
     border-radius: 5px;
   }
 
-.services .serv-content .card{
-       display: flex;
+.services .serv-content{
+    display: flex;
     justify-content: center;
-    background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
@@ -309,9 +309,8 @@ margin-bottom: 10px;
     transition: all 0.3s ease;
 }
 
-
-
 .services .serv-content .card i{
+    margin-bottom: 10px;
     font-size: 50px;
     color: deepskyblue;
     transition: color 0.3s ease;
@@ -324,7 +323,7 @@ margin-bottom: 10px;
 .services .serv-content .text{
     font-size: 25px;
     font-weight: 500;
-    margin: 10px 0 7px 0;
+    margin: 20px 0 10px 0;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -359,15 +358,15 @@ margin-bottom: 10px;
 
 .skills .skills-content .left a{
     display: inline-block;
-background: deepskyblue ;
-color:aliceblue;
-padding: 8px 16px;
-font-size: 18px;
-font-weight: 400;
-border-radius: 5px;
-border: 2px solid deepskyblue;
-margin-top: 20px;
-transition: all 0.3s ease;
+    background: deepskyblue ;
+    color:aliceblue;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 2px solid deepskyblue;
+    margin-top: 20px;
+    transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover{
@@ -438,7 +437,7 @@ content: "Who's with me";
 }
 
 .teams .carousel .card:hover{
-background: deepskyblue;
+    background: deepskyblue;
 }
 
 .teams .carousel .card img{
@@ -528,8 +527,8 @@ background: deepskyblue;
     margin-left: 30px;
 }
 .contact .contact-content .row i{
-font-size: 25px;
-color: deepskyblue;
+    font-size: 25px;
+    color: deepskyblue;
 }
 
 .contact .contact-content  .info .head{
@@ -541,7 +540,7 @@ color: deepskyblue;
 }
 
 .contact .right form .fields{
-  display: flex;
+    display: flex;
  }
 
 .contact .right form .field, 
@@ -601,6 +600,22 @@ color: deepskyblue;
     color:deepskyblue;
     background: none;
     transition: 0.3s ease;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media i{
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.social-media a i{
+    color: aliceblue;
+    transition: all 0.2s ease
 }
 
 /* Footer styling*/
