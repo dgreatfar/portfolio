@@ -619,7 +619,7 @@ content: "Who's with me";
 }
 
 .social-media a i:hover{
- color:deepskyblue;
+    color:deepskyblue;
     background: none;
     transition: 0.3s ease;
 }
