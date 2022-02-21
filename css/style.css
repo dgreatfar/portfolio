@@ -289,8 +289,18 @@ margin-bottom: 10px;
     background: #111;
 }
 
+.services .card{
+    height: 300px;
+    width: 300px;
+    margin: 50px;
+    box-shadow: 5px 2px 5px 2px #555;
+    background-color: #222;
+    border-radius: 5px;
+  }
+
 .services .serv-content .card{
-    width: calc(33% - 20px);
+       display: flex;
+    justify-content: center;
     background: #222;
     text-align: center;
     border-radius: 6px;
@@ -299,9 +309,11 @@ margin-bottom: 10px;
     transition: all 0.3s ease;
 }
 
+
+
 .services .serv-content .card i{
     font-size: 50px;
-    color:deepskyblue;
+    color: deepskyblue;
     transition: color 0.3s ease;
 }
 
