@@ -615,8 +615,15 @@ content: "Who's with me";
 
 .social-media a i{
     color: aliceblue;
-    transition: all 0.2s ease
+    transition: 0.2s ease
 }
+
+.social-media a i:hover{
+ color:deepskyblue;
+    background: none;
+    transition: 0.3s ease;
+}
+
 
 /* Footer styling*/
 
