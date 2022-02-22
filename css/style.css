@@ -373,7 +373,6 @@ margin-bottom: 10px;
     color:deepskyblue;
     background: none;
     transition: 0.3s ease;
-    margin-bottom: 5px;
 }
 
 .skills .skills-content .right .bars{
@@ -602,6 +601,8 @@ content: "Who's with me";
     transition: 0.3s ease;
 }
 
+/* social media styling */
+
 .social-media{
     display: flex;
     justify-content: center;
@@ -782,7 +783,7 @@ footer a{
     }
 
 @media (max-width: 500px){
-        .home .home-content .text-2{
+       .home .home-content .text-2{
             font-size: 40px;
         }
     }
@@ -797,9 +798,22 @@ footer a{
         font-size: 20px;
         font-weight: 600; 
     }
-    
-  
-     
+    .contact .contact-content .column{
+        display: contents;
+        justify-items: center;
+        flex:auto;
+     }
+     .social-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media i{
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+         
 }
 
 @media (max-width: 390px){
@@ -824,6 +838,23 @@ footer a{
     font-size: 18px;
     font-weight: 600; 
     }
+
+     .contact .contact-content .column{
+        display: contents;
+        justify-items: center;
+        flex:auto;
+     }
     
+     .social-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media i{
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
 }
 
