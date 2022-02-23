@@ -876,3 +876,48 @@ footer a{
 
 }
 
+
+@media (max-width: 350px){
+
+    .home .home-content .text-1{
+        font-size: 20px;
+    }
+    .home .home-content .text-2{
+        font-size: 30px;
+    }
+    .home .home-content .text-3{
+        font-size: 25px;
+    }
+    
+    .about .about-content .right .text{
+    font-size: 18px;
+    font-weight: 600; 
+    margin-bottom: 10px;     
+    }
+    
+    .about .about-content .right .text span .typing-2{
+    font-size: 18px;
+    font-weight: 600; 
+    }
+    
+     .contact .contact-content .column {
+         width: 100%;
+     }
+    
+    .contact .contact-content .column .right form{
+         width: 100%;
+     }
+    
+     .social-media{
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media i{
+        margin: 10px;
+        font-size: 25px;
+        cursor: pointer;
+    }
+
+}
+
