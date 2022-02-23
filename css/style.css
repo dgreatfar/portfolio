@@ -799,9 +799,7 @@ footer a{
         font-weight: 600; 
     }
     .contact .contact-content .column{
-        display: contents;
-        justify-items: center;
-        flex:auto;
+         width: 100%;
      }
      .social-media{
         display: flex;
@@ -840,9 +838,7 @@ footer a{
     }
 
      .contact .contact-content .column{
-        display: contents;
-        justify-items: center;
-        flex:auto;
+         width: 100%;
      }
     
      .social-media{
