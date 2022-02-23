@@ -735,6 +735,14 @@ footer a{
         flex: 100%;
      }
 
+      .contact .contact-content .column .left{
+         width: 100%;
+     }
+    
+     .contact .contact-content .column .right{
+         width: 100%;
+     }
+    
      .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -776,6 +784,14 @@ footer a{
 
      .about .about-content .right{
         flex: 100%;
+     }
+    
+      .contact .contact-content .column .left{
+         width: 100%;
+     }
+    
+     .contact .contact-content .column .right{
+         width: 100%;
      }
      .services .serv-content .card{
         width: 100%;
