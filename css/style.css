@@ -740,7 +740,11 @@ footer a{
         margin-bottom: 20px;
     }
     
-     .contact .contact-content .column {
+      .contact .contact-content .column {
+         width: 100%;
+     }
+    
+    .contact .contact-content .column .right form{
          width: 100%;
      }
 
@@ -783,7 +787,11 @@ footer a{
      }
     
     
-     .contact .contact-content .column {
+      .contact .contact-content .column {
+         width: 100%;
+     }
+    
+    .contact .contact-content .column .right form{
          width: 100%;
      }
      .services .serv-content .card{
@@ -848,6 +856,10 @@ footer a{
     }
     
      .contact .contact-content .column {
+         width: 100%;
+     }
+    
+    .contact .contact-content .column .right form{
          width: 100%;
      }
     
