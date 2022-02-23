@@ -734,19 +734,15 @@ footer a{
      .about .about-content .right{
         flex: 100%;
      }
-
-      .contact .contact-content .column .left{
-         width: 100%;
-     }
-    
-     .contact .contact-content .column .right{
-         width: 100%;
-     }
     
      .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
+    
+     .contact .contact-content .column {
+         width: 100%;
+     }
 
     .skills .skills-content .column{
         width: 100%;
@@ -786,11 +782,8 @@ footer a{
         flex: 100%;
      }
     
-      .contact .contact-content .column .left{
-         width: 100%;
-     }
     
-     .contact .contact-content .column .right{
+     .contact .contact-content .column {
          width: 100%;
      }
      .services .serv-content .card{
@@ -814,13 +807,10 @@ footer a{
         font-size: 20px;
         font-weight: 600; 
     }
-   .contact .contact-content .column .left{
+   .contact .contact-content .column {
          width: 100%;
      }
     
-     .contact .contact-content .column .right{
-         width: 100%;
-     }
      .social-media{
         display: flex;
         justify-content: center;
@@ -856,12 +846,8 @@ footer a{
     font-size: 18px;
     font-weight: 600; 
     }
-
-     .contact .contact-content .column .left{
-         width: 100%;
-     }
     
-     .contact .contact-content .column .right{
+     .contact .contact-content .column {
          width: 100%;
      }
     
